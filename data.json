@@ -1,0 +1,335 @@
+{
+  "profile": {
+    "name": "Ajay Patil",
+    "headline": "Specialist at Tata Elxsi || Digital Applications || Cloud Computing || AWS & GCP || UVCEian",
+    "location": "Bengaluru, Karnataka, India",
+    "summary": "Highly motivated and results-oriented Cloud Engineer with 7+ years of experience in designing, developing, and deploying RESTful APIs and cloud-based services on AWS, GCP. Passionate mentor with 5 years of experience in guiding fresh engineers. I've successfully helped 15 mentees transition into their roles by equipping them with the technical and soft skills needed to excel.",
+    "links": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ajay-s-patil/"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/i-am-ajay-patil"
+      }
+    ]
+  },
+  "technical_skills": [
+    "AWS",
+    "Terraform",
+    "Solution Architecture",
+    "Cloud Computing",
+    "Google Cloud Platform (GCP)",
+    "Infrastructure as Code (IaC)",
+    "RESTful APIs",
+    "Multi-tenancy Architecture",
+    "Microservices"
+  ],
+  "experience": [
+    {
+      "company": "Tata Elxsi",
+      "duration": "9 years 6 months",
+      "roles": [
+        {
+          "title": "Development Specialist",
+          "period": "July 2021 – Present",
+          "location": "Bengaluru, Karnataka, India",
+          "highlights": [
+            "Rearchitected the entire OTA backend solution for multi-tenancy, enabling SaaS deployment.",
+            "Designed a robust server-client communication architecture for diverse use cases.",
+            "Automated OTA deployments using Infrastructure as Code (IaC) for streamlined efficiency.",
+            "Optimized cloud resource costs through efficient service selection and processes.",
+            "Developed security and performance-centric products leveraging cloud services.",
+            "Mentored the team to foster an innovative mindset for problem-solving."
+          ]
+        },
+        {
+          "title": "Senior Engineer",
+          "period": "November 2018 – June 2021",
+          "location": "Bengaluru, Karnataka, India",
+          "highlights": [
+            "Led the design and ownership of operator portal workflows and database schema.",
+            "Designed and implemented deployment architecture for AWS infrastructure utilizing IaaS services.",
+            "Led a 3-person team in the design and deployment of a configuration server with 100% completion rate on assigned sprints.",
+            "Owned project components including operator portal, database design, and API integration."
+          ]
+        },
+        {
+          "title": "Engineer",
+          "period": "November 2016 – November 2018",
+          "location": "Bengaluru, Karnataka, India",
+          "highlights": [
+            "Contributed to the development of functionalities in the web-based operator portal.",
+            "Identified and resolved software bugs, ensuring platform stability.",
+            "Provided code reviews, promoting code quality and maintainability."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "University Visvesvaraya College of Engineering",
+      "duration": "1 year 3 months",
+      "roles": [
+        {
+          "title": "Placement Coordinator",
+          "period": "March 2015 – May 2016",
+          "location": "Bengaluru, Karnataka, India",
+          "highlights": [
+            "Built relationships with over 100 companies and secured 25+ companies for on-campus recruitment.",
+            "Co-organized Inspiron-2015, a technical fest held at the college.",
+            "Contributed to the development of the college auditorium infrastructure."
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University Visvesvaraya College of Engineering",
+      "degree_type": "Bachelor's Degree",
+      "course": "Electronics and Communications Engineering",
+      "period": "2012 – 2016"
+    },
+    {
+      "institution": "Government P U College, Majalatti",
+      "degree_type": "Intermediate",
+      "course": "Science",
+      "period": "2010 – 2012"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Leading with Emotional Intelligence",
+      "provider": "LinkedIn",
+      "issued": "Apr 2025",
+      "skills": ["Interpersonal Leadership", "Emotional Intelligence"]
+    },
+    {
+      "name": "Transitioning from Manager to Leader",
+      "provider": "LinkedIn",
+      "issued": "Apr 2025",
+      "skills": ["Leadership"]
+    },
+    {
+      "name": "Using Questions to Foster Critical Thinking and Curiosity",
+      "provider": "LinkedIn",
+      "issued": "Apr 2025",
+      "skills": ["Critical Thinking"]
+    },
+    {
+      "name": "Developing Self-Awareness",
+      "provider": "LinkedIn",
+      "issued": "Mar 2025",
+      "skills": ["Emotional Intelligence"]
+    },
+    {
+      "name": "Managing Your Emotions at Work",
+      "provider": "LinkedIn",
+      "issued": "Mar 2025",
+      "skills": ["Self-regulation"]
+    },
+    {
+      "name": "Building a Better Relationship with Your Boss",
+      "provider": "LinkedIn",
+      "issued": "Mar 2025",
+      "skills": ["Managing Up", "Interpersonal Relationships"]
+    },
+    {
+      "name": "Work Smarter, Think Sharper, Live Better: 15 Tips for Igniting Your Potential",
+      "provider": "LinkedIn",
+      "issued": "Mar 2025",
+      "skills": ["Productivity Improvement", "Personal Development"]
+    },
+    {
+      "name": "AWS Partner: Well-Architected Best Practices (Technical)",
+      "provider": "Amazon Web Services (AWS)",
+      "issued": "Jul 2024",
+      "skills": ["Amazon Web Services (AWS)"]
+    },
+    {
+      "name": "Introduction to PostgreSQL",
+      "provider": "LinkedIn",
+      "issued": "Dec 2024",
+      "skills": ["PostgreSQL"]
+    },
+    {
+      "name": "Python Essential Training",
+      "provider": "LinkedIn",
+      "issued": "Aug 2024",
+      "skills": ["Python (Programming Language)"]
+    },
+    {
+      "name": "Engineering Manager Bootcamp",
+      "provider": "O'Reilly",
+      "issued": "Apr 2024",
+      "skills": ["Engineering Management", "Leadership"]
+    },
+    {
+      "name": "Cloud Digital Leader Certification",
+      "provider": "Google",
+      "issued": "Apr 2024",
+      "expires": "Apr 2027",
+      "credential_id": "ab7a4bb837f445dabe5dc3fefb8759b9",
+      "skills": ["Google Cloud Platform (GCP)", "Cloud Computing"]
+    },
+    {
+      "name": "Learning Docker",
+      "provider": "LinkedIn",
+      "issued": "Mar 2024",
+      "skills": ["Docker"]
+    },
+    {
+      "name": "Learning Terraform",
+      "provider": "LinkedIn",
+      "issued": "Mar 2024",
+      "skills": ["Terraform"]
+    },
+    {
+      "name": "AWS Partner: Accreditation (Technical)",
+      "provider": "Amazon Web Services (AWS)",
+      "issued": "Jan 2024",
+      "credential_id": "E-VX29K1",
+      "skills": ["Solution Architecture", "Amazon Web Services (AWS)"]
+    },
+    {
+      "name": "AWS Technical Essentials",
+      "provider": "Amazon Web Services (AWS)",
+      "issued": "Jan 2024",
+      "credential_id": "E-0E8781",
+      "skills": ["Solution Architecture", "Amazon Web Services (AWS)"]
+    },
+    {
+      "name": "Coaching Yourself and Your Team from Uncertainty to Action",
+      "provider": "LinkedIn",
+      "issued": "Aug 2023",
+      "skills": ["Team Leadership", "Coaching", "Mentoring"]
+    },
+    {
+      "name": "Data-Driven Decision-Making for Business Professionals",
+      "provider": "LinkedIn",
+      "issued": "Aug 2023",
+      "skills": ["Data-driven Decision Making"]
+    },
+    {
+      "name": "Decision-Making Strategies",
+      "provider": "LinkedIn",
+      "issued": "Aug 2023",
+      "skills": ["Decision-Making"]
+    },
+    {
+      "name": "The Six Skills of Proactive Professionals",
+      "provider": "LinkedIn",
+      "issued": "Aug 2023",
+      "skills": ["Career Management"]
+    },
+    {
+      "name": "How to Be an Adaptable Employee during Change and Uncertainty",
+      "provider": "LinkedIn",
+      "issued": "Aug 2023",
+      "skills": ["Easily Adaptable"]
+    },
+    {
+      "name": "Navigating Ambiguity",
+      "provider": "LinkedIn",
+      "issued": "Aug 2023",
+      "skills": ["Problem Solving", "Critical Thinking"]
+    },
+    {
+      "name": "Young Leads | Post Knowledge Check",
+      "provider": "KNOLSKAPE",
+      "issued": "Jul 2022",
+      "skills": ["Leadership", "Self-assessment"]
+    },
+    {
+      "name": "Young Leads | Agile Mindset",
+      "provider": "KNOLSKAPE",
+      "issued": "Jun 2022",
+      "skills": ["Agile Methodologies", "Adaptability"]
+    },
+    {
+      "name": "Young Leads | Critical Thinking and Decision Making",
+      "provider": "KNOLSKAPE",
+      "issued": "Jun 2022",
+      "skills": ["Critical Thinking", "Decision-Making"]
+    },
+    {
+      "name": "Young Leads | Leading Teams Effectively",
+      "provider": "KNOLSKAPE",
+      "issued": "May 2022",
+      "skills": ["Team Leadership", "People Management"]
+    },
+    {
+      "name": "Young Leads | Leading without Authority",
+      "provider": "KNOLSKAPE",
+      "issued": "Apr 2022",
+      "skills": ["Influencing Without Authority", "Leadership"]
+    },
+    {
+      "name": "Young Leads | Build your Business",
+      "provider": "KNOLSKAPE",
+      "issued": "Mar 2022",
+      "skills": ["Business Acumen", "Entrepreneurial Thinking"]
+    },
+    {
+      "name": "Young Leads | Knowledge Check",
+      "provider": "KNOLSKAPE",
+      "issued": "Mar 2022",
+      "skills": ["Leadership", "Self-assessment"]
+    },
+    {
+      "name": "Building a Website with Node.js and Express.js",
+      "provider": "LinkedIn",
+      "issued": "Jan 2022",
+      "skills": ["Node.js", "Express.js"]
+    },
+    {
+      "name": "Learning npm the Node Package Manager",
+      "provider": "LinkedIn",
+      "issued": "Jan 2022",
+      "skills": ["Node.js", "npm"]
+    },
+    {
+      "name": "Node.js Essential Training",
+      "provider": "LinkedIn",
+      "issued": "Jan 2022",
+      "skills": ["Node.js"]
+    },
+    {
+      "name": "Learning Node.js",
+      "provider": "LinkedIn",
+      "issued": "Jan 2022",
+      "skills": ["Node.js"]
+    },
+    {
+      "name": "Learning AWS CloudFormation",
+      "provider": "LinkedIn",
+      "issued": "Jan 2022",
+      "skills": ["AWS CloudFormation", "Infrastructure as Code (IaC)"]
+    },
+    {
+      "name": "Learning the Angular CLI",
+      "provider": "LinkedIn",
+      "issued": "Dec 2021",
+      "skills": ["Angular", "CLI Tools"]
+    },
+    {
+      "name": "Learning Git and GitHub",
+      "provider": "LinkedIn",
+      "issued": "Dec 2021",
+      "skills": ["Git", "GitHub"]
+    },
+    {
+      "name": "AWS Certified Solutions Architect - Associate 2020",
+      "provider": "Udemy",
+      "issued": "Apr 2020",
+      "skills": ["Solution Architecture", "Amazon Web Services (AWS)"]
+    }
+  ],
+  "languages": [
+    { "language": "English", "proficiency": "Professional Working" },
+    { "language": "Kannada", "proficiency": "Native or Bilingual" },
+    { "language": "Marathi", "proficiency": "Native or Bilingual" },
+    { "language": "Hindi", "proficiency": "Native or Bilingual" }
+  ]
+}

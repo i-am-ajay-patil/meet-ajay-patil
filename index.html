@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Patil | Cloud Specialist</title>
+    <link rel="icon" type="image/x-icon" href="meet-ajay-patil.ico">
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/48f02fe1ae.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav aria-label="Main navigation" class="fixed w-full z-50 glass py-4 px-6 flex justify-between items-center">
+        <img src="meet-ajay-patil.svg" alt="Ajay Patil" class="h-8 w-auto" />
+        <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest">
+            <a href="#about" class="hover:text-[#00f2fe] transition">About</a>
+            <a href="#experience" class="hover:text-[#00f2fe] transition">Experience</a>
+            <a href="#skills" class="hover:text-[#00f2fe] transition">Skills</a>
+            <a href="#contact" class="hover:text-[#00f2fe] transition">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="h-screen flex flex-col justify-center items-center text-center px-4">
+        <div id="particles-js" class="absolute inset-0 -z-10"></div>
+        <h1 class="text-6xl md:text-8xl font-bold mb-4 bg-gradient-to-r from-white to-[#00f2fe] bg-clip-text text-transparent" data-aos="zoom-in">
+            Ajay Patil
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-400 max-w-2xl" id="hero-tagline" data-aos="fade-up" data-aos-delay="200"></p>
+        <a href="#experience" class="mt-10 px-8 py-3 border border-[#00f2fe] text-[#00f2fe] hover:bg-[#00f2fe] hover:text-black transition-all duration-300 rounded-full" data-aos="fade-up" data-aos-delay="400">
+            View My Work
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 max-w-5xl mx-auto" data-aos="fade-up">
+        <h2 class="text-4xl font-bold mb-8 border-l-4 border-[#00f2fe] pl-4">About Me</h2>
+        <div class="glass p-8 rounded-2xl">
+            <p id="about-text" class="text-lg text-gray-300 leading-relaxed"></p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 max-w-5xl mx-auto" data-aos="fade-up">
+        <h2 class="text-4xl font-bold mb-12 border-l-4 border-[#00f2fe] pl-4">Technical Arsenal</h2>
+        <div id="skills-container" class="flex flex-wrap gap-4">
+            <!-- Skills injected by app.js -->
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-6 max-w-5xl mx-auto">
+        <h2 class="text-4xl font-bold mb-12 border-l-4 border-[#00f2fe] pl-4">Professional History</h2>
+        <div id="experience-container" class="space-y-8">
+            <!-- Experience injected by app.js -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 max-w-5xl mx-auto text-center" data-aos="fade-up">
+        <h2 class="text-4xl font-bold mb-12">Get In Touch</h2>
+        <div class="flex justify-center gap-8 mb-10" id="social-links">
+            <!-- Social links injected by app.js -->
+        </div>
+    </section>
+
+    <footer class="py-6 text-center text-sm text-gray-600 border-t border-gray-800">
+        <p>&copy; <span id="footer-year"></span> Ajay Patil. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
