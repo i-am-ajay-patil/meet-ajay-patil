@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Ajay Patil",
-    "headline": "Specialist at Tata Elxsi || Digital Applications || Cloud Computing || AWS & GCP || UVCEian",
+    "headline": "Specialist at Tata Elxsi || Digital Applications || Cloud Computing || AWS & GCP || Android || UVCEian",
     "location": "Bengaluru, Karnataka, India",
     "summary": "Highly motivated and results-oriented Cloud Engineer with 7+ years of experience in designing, developing, and deploying RESTful APIs and cloud-based services on AWS, GCP. Passionate mentor with 5 years of experience in guiding fresh engineers. I've successfully helped 15 mentees transition into their roles by equipping them with the technical and soft skills needed to excel.",
     "links": [
@@ -15,17 +15,6 @@
       }
     ]
   },
-  "technical_skills": [
-    "AWS",
-    "Terraform",
-    "Solution Architecture",
-    "Cloud Computing",
-    "Google Cloud Platform (GCP)",
-    "Infrastructure as Code (IaC)",
-    "RESTful APIs",
-    "Multi-tenancy Architecture",
-    "Microservices"
-  ],
   "experience": [
     {
       "company": "Tata Elxsi",
