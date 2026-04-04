@@ -103,67 +103,93 @@
       "name": "Leading with Emotional Intelligence",
       "provider": "LinkedIn",
       "issued": "Apr 2025",
-      "skills": ["Interpersonal Leadership", "Emotional Intelligence"]
+      "skills": [
+        { "name": "Interpersonal Leadership", "skill_type": "soft skill" },
+        { "name": "Emotional Intelligence", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Transitioning from Manager to Leader",
       "provider": "LinkedIn",
       "issued": "Apr 2025",
-      "skills": ["Leadership"]
+      "skills": [
+        { "name": "Leadership", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Using Questions to Foster Critical Thinking and Curiosity",
       "provider": "LinkedIn",
       "issued": "Apr 2025",
-      "skills": ["Critical Thinking"]
+      "skills": [
+        { "name": "Critical Thinking", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Developing Self-Awareness",
       "provider": "LinkedIn",
       "issued": "Mar 2025",
-      "skills": ["Emotional Intelligence"]
+      "skills": [
+        { "name": "Emotional Intelligence", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Managing Your Emotions at Work",
       "provider": "LinkedIn",
       "issued": "Mar 2025",
-      "skills": ["Self-regulation"]
+      "skills": [
+        { "name": "Self-regulation", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Building a Better Relationship with Your Boss",
       "provider": "LinkedIn",
       "issued": "Mar 2025",
-      "skills": ["Managing Up", "Interpersonal Relationships"]
+      "skills": [
+        { "name": "Managing Up", "skill_type": "soft skill" },
+        { "name": "Interpersonal Relationships", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Work Smarter, Think Sharper, Live Better: 15 Tips for Igniting Your Potential",
       "provider": "LinkedIn",
       "issued": "Mar 2025",
-      "skills": ["Productivity Improvement", "Personal Development"]
+      "skills": [
+        { "name": "Productivity Improvement", "skill_type": "soft skill" },
+        { "name": "Personal Development", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "AWS Partner: Well-Architected Best Practices (Technical)",
       "provider": "Amazon Web Services (AWS)",
       "issued": "Jul 2024",
-      "skills": ["Amazon Web Services (AWS)"]
+      "skills": [
+        { "name": "Amazon Web Services (AWS)", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "Introduction to PostgreSQL",
       "provider": "LinkedIn",
       "issued": "Dec 2024",
-      "skills": ["PostgreSQL"]
+      "skills": [
+        { "name": "PostgreSQL", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "Python Essential Training",
       "provider": "LinkedIn",
       "issued": "Aug 2024",
-      "skills": ["Python (Programming Language)"]
+      "skills": [
+        { "name": "Python (Programming Language)", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "Engineering Manager Bootcamp",
       "provider": "O'Reilly",
       "issued": "Apr 2024",
-      "skills": ["Engineering Management", "Leadership"]
+      "skills": [
+        { "name": "Engineering Management", "skill_type": "technical skill" },
+        { "name": "Leadership", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Cloud Digital Leader Certification",
@@ -171,159 +197,230 @@
       "issued": "Apr 2024",
       "expires": "Apr 2027",
       "credential_id": "ab7a4bb837f445dabe5dc3fefb8759b9",
-      "skills": ["Google Cloud Platform (GCP)", "Cloud Computing"]
+      "skills": [
+        { "name": "Google Cloud Platform (GCP)", "skill_type": "technical skill" },
+        { "name": "Cloud Computing", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "Learning Docker",
       "provider": "LinkedIn",
       "issued": "Mar 2024",
-      "skills": ["Docker"]
+      "skills": [
+        { "name": "Docker", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "Learning Terraform",
       "provider": "LinkedIn",
       "issued": "Mar 2024",
-      "skills": ["Terraform"]
+      "skills": [
+        { "name": "Terraform", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "AWS Partner: Accreditation (Technical)",
       "provider": "Amazon Web Services (AWS)",
       "issued": "Jan 2024",
       "credential_id": "E-VX29K1",
-      "skills": ["Solution Architecture", "Amazon Web Services (AWS)"]
+      "skills": [
+        { "name": "Solution Architecture", "skill_type": "technical skill" },
+        { "name": "Amazon Web Services (AWS)", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "AWS Technical Essentials",
       "provider": "Amazon Web Services (AWS)",
       "issued": "Jan 2024",
       "credential_id": "E-0E8781",
-      "skills": ["Solution Architecture", "Amazon Web Services (AWS)"]
+      "skills": [
+        { "name": "Solution Architecture", "skill_type": "technical skill" },
+        { "name": "Amazon Web Services (AWS)", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "Coaching Yourself and Your Team from Uncertainty to Action",
       "provider": "LinkedIn",
       "issued": "Aug 2023",
-      "skills": ["Team Leadership", "Coaching", "Mentoring"]
+      "skills": [
+        { "name": "Team Leadership", "skill_type": "soft skill" },
+        { "name": "Coaching", "skill_type": "soft skill" },
+        { "name": "Mentoring", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Data-Driven Decision-Making for Business Professionals",
       "provider": "LinkedIn",
       "issued": "Aug 2023",
-      "skills": ["Data-driven Decision Making"]
+      "skills": [
+        { "name": "Data-driven Decision Making", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Decision-Making Strategies",
       "provider": "LinkedIn",
       "issued": "Aug 2023",
-      "skills": ["Decision-Making"]
+      "skills": [
+        { "name": "Decision-Making", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "The Six Skills of Proactive Professionals",
       "provider": "LinkedIn",
       "issued": "Aug 2023",
-      "skills": ["Career Management"]
+      "skills": [
+        { "name": "Career Management", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "How to Be an Adaptable Employee during Change and Uncertainty",
       "provider": "LinkedIn",
       "issued": "Aug 2023",
-      "skills": ["Easily Adaptable"]
+      "skills": [
+        { "name": "Easily Adaptable", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Navigating Ambiguity",
       "provider": "LinkedIn",
       "issued": "Aug 2023",
-      "skills": ["Problem Solving", "Critical Thinking"]
+      "skills": [
+        { "name": "Problem Solving", "skill_type": "soft skill" },
+        { "name": "Critical Thinking", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Young Leads | Post Knowledge Check",
       "provider": "KNOLSKAPE",
       "issued": "Jul 2022",
-      "skills": ["Leadership", "Self-assessment"]
+      "skills": [
+        { "name": "Leadership", "skill_type": "soft skill" },
+        { "name": "Self-assessment", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Young Leads | Agile Mindset",
       "provider": "KNOLSKAPE",
       "issued": "Jun 2022",
-      "skills": ["Agile Methodologies", "Adaptability"]
+      "skills": [
+        { "name": "Agile Methodologies", "skill_type": "technical skill" },
+        { "name": "Adaptability", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Young Leads | Critical Thinking and Decision Making",
       "provider": "KNOLSKAPE",
       "issued": "Jun 2022",
-      "skills": ["Critical Thinking", "Decision-Making"]
+      "skills": [
+        { "name": "Critical Thinking", "skill_type": "soft skill" },
+        { "name": "Decision-Making", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Young Leads | Leading Teams Effectively",
       "provider": "KNOLSKAPE",
       "issued": "May 2022",
-      "skills": ["Team Leadership", "People Management"]
+      "skills": [
+        { "name": "Team Leadership", "skill_type": "soft skill" },
+        { "name": "People Management", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Young Leads | Leading without Authority",
       "provider": "KNOLSKAPE",
       "issued": "Apr 2022",
-      "skills": ["Influencing Without Authority", "Leadership"]
+      "skills": [
+        { "name": "Influencing Without Authority", "skill_type": "soft skill" },
+        { "name": "Leadership", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Young Leads | Build your Business",
       "provider": "KNOLSKAPE",
       "issued": "Mar 2022",
-      "skills": ["Business Acumen", "Entrepreneurial Thinking"]
+      "skills": [
+        { "name": "Business Acumen", "skill_type": "soft skill" },
+        { "name": "Entrepreneurial Thinking", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Young Leads | Knowledge Check",
       "provider": "KNOLSKAPE",
       "issued": "Mar 2022",
-      "skills": ["Leadership", "Self-assessment"]
+      "skills": [
+        { "name": "Leadership", "skill_type": "soft skill" },
+        { "name": "Self-assessment", "skill_type": "soft skill" }
+      ]
     },
     {
       "name": "Building a Website with Node.js and Express.js",
       "provider": "LinkedIn",
       "issued": "Jan 2022",
-      "skills": ["Node.js", "Express.js"]
+      "skills": [
+        { "name": "Node.js", "skill_type": "technical skill" },
+        { "name": "Express.js", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "Learning npm the Node Package Manager",
       "provider": "LinkedIn",
       "issued": "Jan 2022",
-      "skills": ["Node.js", "npm"]
+      "skills": [
+        { "name": "Node.js", "skill_type": "technical skill" },
+        { "name": "npm", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "Node.js Essential Training",
       "provider": "LinkedIn",
       "issued": "Jan 2022",
-      "skills": ["Node.js"]
+      "skills": [
+        { "name": "Node.js", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "Learning Node.js",
       "provider": "LinkedIn",
       "issued": "Jan 2022",
-      "skills": ["Node.js"]
+      "skills": [
+        { "name": "Node.js", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "Learning AWS CloudFormation",
       "provider": "LinkedIn",
       "issued": "Jan 2022",
-      "skills": ["AWS CloudFormation", "Infrastructure as Code (IaC)"]
+      "skills": [
+        { "name": "AWS CloudFormation", "skill_type": "technical skill" },
+        { "name": "Infrastructure as Code (IaC)", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "Learning the Angular CLI",
       "provider": "LinkedIn",
       "issued": "Dec 2021",
-      "skills": ["Angular", "CLI Tools"]
+      "skills": [
+        { "name": "Angular", "skill_type": "technical skill" },
+        { "name": "CLI Tools", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "Learning Git and GitHub",
       "provider": "LinkedIn",
       "issued": "Dec 2021",
-      "skills": ["Git", "GitHub"]
+      "skills": [
+        { "name": "Git", "skill_type": "technical skill" },
+        { "name": "GitHub", "skill_type": "technical skill" }
+      ]
     },
     {
       "name": "AWS Certified Solutions Architect - Associate 2020",
       "provider": "Udemy",
       "issued": "Apr 2020",
-      "skills": ["Solution Architecture", "Amazon Web Services (AWS)"]
+      "skills": [
+        { "name": "Solution Architecture", "skill_type": "technical skill" },
+        { "name": "Amazon Web Services (AWS)", "skill_type": "technical skill" }
+      ]
     }
   ],
   "languages": [

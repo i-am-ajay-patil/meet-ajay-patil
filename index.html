@@ -15,8 +15,8 @@
         <img src="meet-ajay-patil.svg" alt="Ajay Patil" class="h-8 w-auto" />
         <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest">
             <a href="#about" class="hover:text-[#00f2fe] transition">About</a>
-            <a href="#experience" class="hover:text-[#00f2fe] transition">Experience</a>
             <a href="#skills" class="hover:text-[#00f2fe] transition">Skills</a>
+            <a href="#experience" class="hover:text-[#00f2fe] transition">Experience</a>
             <a href="#contact" class="hover:text-[#00f2fe] transition">Contact</a>
         </div>
     </nav>
@@ -68,6 +68,24 @@
     <footer class="py-6 text-center text-sm text-gray-600 border-t border-gray-800">
         <p>&copy; <span id="footer-year"></span> Ajay Patil. All rights reserved.</p>
     </footer>
+
+    <!-- Skill Modal -->
+    <div id="skill-modal" class="hidden fixed inset-0 z-[100] flex items-center justify-center px-4" style="background: rgba(0,0,0,0.75); backdrop-filter: blur(4px);">
+        <div class="glass rounded-3xl border border-gray-700 w-full max-w-lg max-h-[80vh] flex flex-col">
+            <!-- Modal Header -->
+            <div class="flex justify-between items-start p-6 border-b border-gray-800">
+                <div>
+                    <h3 id="modal-skill-title" class="text-xl font-bold text-[#00f2fe]"></h3>
+                    <p id="modal-cert-count" class="text-xs text-gray-500 mt-1"></p>
+                </div>
+                <button id="modal-close-btn" aria-label="Close modal" class="text-gray-500 hover:text-white transition text-xl leading-none ml-4">&times;</button>
+            </div>
+            <!-- Modal Body -->
+            <div id="modal-cert-list" class="overflow-y-auto p-6 space-y-3">
+                <!-- Cert cards injected by app.js -->
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

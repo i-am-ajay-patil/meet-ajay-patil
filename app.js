@@ -54,14 +54,52 @@ document.addEventListener('DOMContentLoaded', () => {
             // About section
             document.getElementById('about-text').innerText = data.profile.summary;
 
-            // Skills section
-            const skillsContainer = document.getElementById('skills-container');
-            data.technical_skills.forEach(skill => {
-                const span = document.createElement('span');
-                span.className = 'px-6 py-2 glass rounded-full border border-gray-700 hover:border-[#00f2fe] transition-all text-sm font-medium';
-                span.innerText = skill;
-                skillsContainer.appendChild(span);
+            // Skills section — derived from certifications, grouped by skill_type
+            // Build inverted map: skill name -> { skill_type, certs[] }
+            const skillMap = {};
+            data.certifications.forEach(cert => {
+                cert.skills.forEach(skillObj => {
+                    if (!skillMap[skillObj.name]) {
+                        skillMap[skillObj.name] = { skill_type: skillObj.skill_type, certs: [] };
+                    }
+                    skillMap[skillObj.name].certs.push(cert);
+                });
             });
+
+            const technicalSkills = {};
+            const softSkills = {};
+            Object.entries(skillMap).forEach(([name, data]) => {
+                if (data.skill_type === 'technical skill') technicalSkills[name] = data.certs;
+                else softSkills[name] = data.certs;
+            });
+
+            const skillsContainer = document.getElementById('skills-container');
+
+            function renderSkillGroup(label, skillsObj) {
+                const group = document.createElement('div');
+                group.className = 'w-full';
+                group.innerHTML = `<h3 class="text-xs uppercase tracking-widest text-gray-500 mb-4 pl-1">${label}</h3>`;
+                const pills = document.createElement('div');
+                pills.className = 'flex flex-wrap gap-3';
+                Object.keys(skillsObj).sort().forEach(skill => {
+                    const count = skillsObj[skill].length;
+                    const btn = document.createElement('button');
+                    btn.className = 'px-6 py-2 glass rounded-full border border-gray-700 hover:border-[#00f2fe] hover:text-[#00f2fe] transition-all text-sm font-medium cursor-pointer';
+                    btn.innerText = `${skill} (${count})`;
+                    btn.addEventListener('click', () => openSkillModal(skill, skillsObj[skill]));
+                    pills.appendChild(btn);
+                });
+                group.appendChild(pills);
+                return group;
+            }
+
+            skillsContainer.appendChild(renderSkillGroup('Technical Skills', technicalSkills));
+
+            const divider = document.createElement('div');
+            divider.className = 'w-full border-t border-gray-800 my-6';
+            skillsContainer.appendChild(divider);
+
+            skillsContainer.appendChild(renderSkillGroup('Soft Skills', softSkills));
 
             // Experience section
             populateExperience(data);
@@ -136,4 +174,49 @@ function populateExperience(data) {
 
         expContainer.appendChild(companySection);
     });
+}
+
+// Open the skill modal and populate with backing certifications
+function openSkillModal(skill, certs) {
+    document.getElementById('modal-skill-title').innerText = skill;
+    document.getElementById('modal-cert-count').innerText =
+        `${certs.length} credential${certs.length !== 1 ? 's' : ''}`;
+
+    const list = document.getElementById('modal-cert-list');
+    list.innerHTML = certs.map(cert => `
+        <div class="glass rounded-xl p-4 border border-gray-800 hover:border-[#00f2fe]/50 transition-all">
+            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1">
+                <p class="text-sm font-semibold text-white leading-snug">${cert.name}</p>
+                <span class="text-[10px] uppercase tracking-widest text-[#00f2fe] whitespace-nowrap">${cert.issued}</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">${cert.provider}</p>
+            ${cert.credential_id ? `<p class="text-[10px] text-gray-600 mt-1">ID: ${cert.credential_id}</p>` : ''}
+            ${cert.expires ? `<p class="text-[10px] text-gray-600">Expires: ${cert.expires}</p>` : ''}
+        </div>
+    `).join('');
+
+    document.getElementById('skill-modal').classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+}
+
+// Close modal handlers
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('skill-modal');
+
+    document.getElementById('modal-close-btn').addEventListener('click', closeSkillModal);
+
+    // Click outside the modal panel to close
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeSkillModal();
+    });
+
+    // Escape key to close
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeSkillModal();
+    });
+});
+
+function closeSkillModal() {
+    document.getElementById('skill-modal').classList.add('hidden');
+    document.body.style.overflow = '';
 }
